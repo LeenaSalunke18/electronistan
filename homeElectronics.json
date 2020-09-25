@@ -8,7 +8,7 @@
       "rate": 2.44,
       "content": "Samsung Branded 32 Inch LCD with 1 Year Warranty",
       "review": 78,
-      "imageUrl": "images/lcd1.png",
+      "imageUrl": "Images/lcd1.png",
       "action": "Buy Now"
     },
     {
@@ -19,7 +19,7 @@
       "rate": 2.18,
       "content": "Sony Very Branded 50 Inch LCD with 5 Year Warrenty",
       "review": 67,
-      "imageUrl": "images/lcd2.png",
+      "imageUrl": "Images/lcd2.png",
       "action": "Buy Now"
     },
     {
@@ -30,7 +30,7 @@
       "rate": 0.91,
       "content": "Hair Imported 32 Inch LCD with 2 Year Warranty",
       "review": 116,
-      "imageUrl": "images/lcd3.png",
+      "imageUrl": "Images/lcd3.png",
       "action": "Buy Now"
       
     },
@@ -42,7 +42,7 @@
       "rate": 3.11,
       "content": "Pel Refregrator Very Branded Quality with 10 Year Warrenty",
       "review": 78,
-      "imageUrl": "images/ref1.png",
+      "imageUrl": "Images/ref1.png",
       "action":"Buy Now"
     },
     {
@@ -53,7 +53,7 @@
       "rate": 0.29,
       "content": "Gar Refregrator Very Branded Quality with 10 Year Warrenty",
       "review": 44,
-      "imageUrl": "images/ref2.png",
+      "imageUrl": "Images/ref2.png",
       "action":"Buy Now"
     },
     {
@@ -64,7 +64,7 @@
       "rate": 0.28,
       "content": " Sony Refregrator Very Branded Quality with 10 Year Warrenty",
       "review": 34,
-      "imageUrl": "images/ref3.png",
+      "imageUrl": "Images/ref3.png",
       "action":"Buy Now"
     },
     {
@@ -75,7 +75,7 @@
       "rate": 4.74,
       "content": "Haier imported Washing Machine with 5 Year Warrenty",
       "review": 188,
-      "imageUrl": "images/wash3.png",
+      "imageUrl": "Images/wash3.png",
       "action":"Buy Now"
     },
     {
@@ -86,7 +86,7 @@
       "rate": 4.38,
       "content": "Haier imported Washing Machine with 5 Year Warrenty",
       "review": 63,
-      "imageUrl": "images/wash1.png",
+      "imageUrl": "Iages/wash1.png",
       "action":"Buy Now"
     },
     {
@@ -97,7 +97,7 @@
       "rate": 0.21,
       "content": "Haier imported Washing Machine with 5 Year Warrenty",
       "review": 125,
-      "imageUrl": "images/wash2.png",
+      "imageUrl": "Iages/wash2.png",
       "action":"Buy Now"
     }
   ]
