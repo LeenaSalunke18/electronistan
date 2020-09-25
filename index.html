@@ -1,0 +1,1008 @@
+<!doctype html>
+<html>
+
+<head>
+
+    <meta charset='utf-8'>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <title>Electronistan</title>
+    <!----------------- Links ----------------->
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" href="Images/icon.png">
+    <link href='https://maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css' rel='stylesheet'>
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:300,400,700&subset=latin-ext" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+        integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css"
+        integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@200;300;400;500;600&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="signup.css">
+    <link rel="stylesheet" href="login.css">
+    <!-- <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet"> -->
+
+</head>
+
+<body oncontextmenu='return false' class='snippet-body'>
+    <div class="super_container">
+        <!----------------- Header ----------------->
+        <header class="header">
+            <!----------------- Top Bar ----------------->
+            <div class="top_bar navbar-blue">
+                <div class="wrapper"></div>
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col d-flex flex-row px-5">
+                            <div class="top_bar_contact_item">
+                                <div class="top_bar_icon"><i class="fas fa-mobile-alt"></i></div><a href="#">+92 0000
+                                    000 000</a>
+                            </div>
+                            <div class="top_bar_contact_item">
+                                <div class="top_bar_icon"><i class="far fa-envelope"></i></div><a
+                                    href="#">contact@electronistan.com</a>
+                            </div>
+                            <div class="top_bar_user ml-auto">
+                                <div class="user_icon"></div>
+                                <div class="iconn_text"><a href="login.html"><i class="fas fa-user-check pr-3"></i>Log
+                                        In</a>
+                                </div>
+                                <div class="iconn-text"><a href="signup.html"><i class="fas fa-user pr-3"></i>Sign
+                                        Up</a></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </div>
+    <!----------------- Header Main ----------------->
+    <div class="header_main" style="background-color: #ffffff;">
+        <div class="container-fluid">
+            <div class="row">
+                <!----------------- Logo ----------------->
+                <div class="col-lg-2 col-sm-3 col-3 order-1">
+                    <div class="logo_container">
+                        <div class="logo"><img src="Images/logo.png" alt=""></div>
+                    </div>
+                </div>
+                <!----------------- Search Bar ----------------->
+                <div class="col-lg-7 col-12 order-lg-2 order-3 pl-5 pr10">
+                    <div class="header_search">
+                        <div class="header_search_content">
+                            <div class="header_search_form_container ml-auto">
+                                <form action="#" class="header_search_form clearfix"> <input type="search"
+                                        required="required" class="header_search_input" value="Search Here">
+                                    <div class="custom_dropdown" style="display: none;">
+                                        <div class="custom_dropdown_list"> <span
+                                                class="custom_dropdown_placeholder clc">All Categories</span><i
+                                                class="fas fa-caret-down"></i>
+                                            <ul class="custom_list clc">
+                                                <li><a class="clc" href="#">All Categories</a></li>
+                                                <li><a class="clc" href="#">Tv and LEDs</a></li>
+                                                <li><a class="clc" href="#">Refrigerators</a></li>
+                                                <li><a class="clc" href="#">Washing Machines</a></li>
+                                                <li><a class="clc" href="#">Samsung</a></li>
+                                                <li><a class="clc" href="#">Nokia</a></li>
+                                            </ul>
+                                        </div>
+                                    </div> <button type="submit" class="header_search_button trans_300"
+                                        value="Submit"><i class="fas fa-search"></i></button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!----------------- Wishlist ----------------->
+                <div class="col-lg-3 col-9 order-lg-3 order-2 text-lg-left text-right mt-5">
+                    <div class="wishlist_cart d-flex flex-row align-items-center justify-content-end mt-5">
+                        <div class="wishlist d-flex flex-row align-items-center justify-content-end">
+                            <div class="wishlist_icon"><i class=""></i></div>
+                            <div class="wishlist_content">
+                                <div class="wishlist_text pr-5"><a href="#"></a></div>
+                                <div class="wishlist_count"></div>
+                            </div>
+                        </div>
+                        <!----------------- Cart ----------------->
+                        <div class="cart">
+                            <div class="cart_container d-flex flex-row align-items-center justify-content-end">
+                                <div class="cart_icon"><i class="fas fa-shopping-cart pr-3"></i>
+                                    <div class="cart_count"><span></span></div>
+                                </div>
+                                <div class="cart_content">
+                                    <div class="cart_text pr-5"><a href="#" class="add-to-cart">Cart</a></div>
+                                    <div class="cart_price"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!----------------- Main Navigation ----------------->
+
+
+    <!-- <nav class="main_nav">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col pl-0 pr-0">
+                    <div class="main_nav_content d-flex flex-row"> -->
+    <!----------------- Main Menu ----------------->
+    <!-- <div class="main_nav_menu container-fluid"
+                            style="background-image: linear-gradient(#039ee6, #04e0e7);">
+                            <ul class="standard_dropdown main_nav_dropdown px-3">
+                                <li><a href="#">Home</a></li>
+                                <li><a href="all-categories.html">All Products</a></li>
+                                <li class="hassubs"> <a href="#">Home Electronics<i
+                                            class="fas fa-caret-down mr-3"></i></a>
+                                    <ul>
+                                        <li> <a href="tv-led.html">TV and LED</a>
+                                        <li> <a href="refrigerators.html">Refrigerators</a>
+                                        <li> <a href="w-mac.html">Washing Machines</a>
+                                    </ul>
+                                </li>
+                                <li class="hassubs"> <a href="#">Digital Electronic<i
+                                            class="fas fa-caret-down mr-3"></i></a>
+                                    <ul>
+                                        <li> <a href="#">Mobiles<i class="fas fa-caret-down ml-3"></i></a>
+                                            <ul>
+                                                <li><a href="samsung-mobiles.html">Samsung</a>
+                                                </li>
+                                                <li><a href="nokia-mobiles.html">Nokia</a>
+                                                </li>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li> <a href="laptop.html">Laptops</a>
+                                <li> <a href="tablets.html">Tablets</a>
+                            </ul>
+                            </li>
+                            <li class="hassubs"> <a href="#">Electronic Appliances<i
+                                        class="fas fa-caret-down mr-3"></i></a>
+                                <ul>
+                                    <li> <a href="#">Kitchen Appliances<i class="fas fa-caret-down ml-3"></i></a>
+                                        <ul>
+                                            <li><a href="microwave.html">Microwave</a>
+                                            </li>
+                                    </li>
+                                    <li><a href="dishwasher.html">Dishwasher</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li> <a href="#">Home Appliances<i class="fas fa-caret-down ml-3"></i></a>
+                                <ul>
+                            </li>
+                            <li><a href="irons.html">Irons</a>
+                            </li>
+                            <li><a href="vaccume.html">Vaccumes</a>
+                            </li>
+                            </ul>
+                            </li>
+                            </ul>
+                            </li>
+                            <li><a href="featured-products.html">Featured Products</a></li>
+                            </ul>
+                        </div> -->
+    <!----------------- Menu Trigger ----------------->
+    <!-- <div class="menu_trigger_container">
+                            <div class="menu_trigger d-flex flex-row align-items-center justify-content-end">
+                                <div class="menu_burger">
+                                    <div class="menu_trigger_text pl-3">All Categories</div>
+                                    <div class="cat_burger menu_burger_inner">
+                                        <i class="fas fa-bars"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </nav> -->
+    <!----------------- Menu----------------->
+    <!-- <div class="page_menu">
+        <div class="container-fluid pl-0 pr-0">
+            <div class="row">
+                <div class="col" style="max-width: 45%;">
+                    <div class="page_menu_content">
+                        <div class="page_menu_search">
+                            <form action="#"> <input type="search" required="required" class="page_menu_search_input"
+                                    placeholder="Search for products..."> </form>
+                        </div>
+                        <li class="page_menu_item"> <a href="#">Home</a>
+                        </li>
+                        <li class="page_menu_item"><a href="all-categories.html">All Products</a>
+                        </li>
+                        <li class="page_menu_item has-children"> <a href="#">
+                                Home Electronics
+                                <i class="fas fa-caret-down"></i></a>
+                            <ul class="page_menu_selection">
+                                <li> <a href="tv-led.html">TV and LCD</a>
+                                <li> <a href="refrigerators.html">Refrigerators</a>
+                                <li> <a href="w-mac.html">Washing Machines</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="page_menu_item has-children"> <a href="#">Digital Electronic
+                                <i class="fas fa-caret-down "></i></a>
+                            <ul class="page_menu_selection">
+                                <li class="page_menu_item has-children"> <a href="#">Mobiles<i
+                                            class="fas fa-caret-down"></i></a>
+                                    <ul class="page_menu_selection">
+                                        <li><a href="samsung-mobiles.html">Samsung</a></li>
+                                        <li><a href="nokia-mobiles.html">Nokia</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="laptop.html">Lapotps</a></li>
+                                <li><a href="tablets.html">Tablets</a></li>
+                            </ul>
+                        </li>
+                        <li class="page_menu_item has-children"> <a href="#">
+                                Electronic Appliances
+                                <i class="fas fa-caret-down"></i></a>
+                            <ul class="page_menu_selection">
+                                <li class="page_menu_item has-children"> <a href="#">Kitchen
+                                        Appliances<i class="fas fa-caret-down"></i></a>
+                                    <ul class="page_menu_selection">
+                                        <li><a href="microwave.html">Microwave</a></li>
+                                        <li><a href="dishwasher.html">Dish Washer</a></li>
+                                    </ul>
+                                </li>
+                                <li class="page_menu_item has-children"> <a href="#">Home
+                                        Appliances<i class="fas fa-caret-down"></i></a>
+                                    <ul class="page_menu_selection">
+                                        <li><a href="irons.html">Irons</a></li>
+                                        <li><a href="vaccume.html">Vaccumes</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="page_menu_item"><a href="featured-products.html">Featured
+                                Products</a>
+                        </li>
+                        </ul>
+                        <div class="menu_contact">
+                            <div class="menu_contact_item">
+                                <div class="menu_contact_icon"><i class="fas fa-mobile-alt"></i></div>
+                                +92 0000 000 000
+                            </div>
+                            <div class="menu_contact_item">
+                                <div class="menu_contact_icon"><i class="fas fa-envelope"></i></div><a
+                                    href="#">contact@electronistan.com</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </header>
+    </div> -->
+
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main_nav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="main_nav">
+            <ul class="navbar-nav">
+                <li class="nav-item active"> <a class="nav-link" href="#">Home </a> </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link  dropdown-toggle" href="#" data-toggle="dropdown"> Home Electronics </a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#home-electronics"> TV & LED</a></li>
+                        <li><a class="dropdown-item" href="#home-electronics"> Refrigerator </a></li>
+                        <li><a class="dropdown-item" href="#home-electronics"> Washing Machines </a></li>
+                    </ul>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link  dropdown-toggle" href="#" data-toggle="dropdown"> Digital Electronics </a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#"> Laptops</a></li>
+                        <li><a class="dropdown-item" href="#"> Mobiles </a></li>
+                        <li><a class="dropdown-item" href="#"> Watches </a></li>
+                    </ul>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link  dropdown-toggle" href="#" data-toggle="dropdown"> Home Appliances </a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#"> Iron</a></li>
+                        <li><a class="dropdown-item" href="#"> Microwave </a></li>
+                        <li><a class="dropdown-item" href="#"> AC </a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div> <!-- navbar-collapse.// -->
+    </nav>
+
+    <!----------------- Slider ----------------->
+    <!-- <div style="background-image: url(Images/slider-img.jpg);
+    background-size: cover;"> -->
+    <!-- <div class="main py-5 container">
+            <div class="cd-slider">
+                <ul>
+                    <li>
+                        <div class="image" style="background-image:url(Images/slider-image-1.jpg);"></div>
+                        <div class="content"> -->
+    <!-- <h2>Mobile Phones</h2> -->
+    <!-- <a href="mobiles.html" target="_blank">View Products</a> -->
+    <!-- </div>
+                    </li>
+                    <li>
+                        <div class="image" style="background-image:url(Images/example.JPG);">
+                        </div>
+                        <div class="content"> -->
+    <!-- <h2>Cameras</h2> -->
+    <!-- <a href="#">Coming Soon</a> -->
+    <!-- </div>
+                    </li>
+                    <li> -->
+    <!-- <div class="image" style="background-image:url(Images/slider-img-3.jpg);"></div> -->
+    <!-- <div class="content">
+                            <h2>Laptops</h2> -->
+    <!-- <a href="laptop.html" target="_blank">View Products</a> -->
+    <!-- </div>
+                    </li>
+                    <li> -->
+    <!-- <div class="image" style="background-image:url(Images/slider-img-4.jpg);"></div> -->
+    <!-- <div class="content">
+                            <h2>New Arrivals</h2> -->
+    <!-- <a href="shop-now.html" target="_blank">View Products</a> -->
+    <!-- </div>
+                    </li>
+                    <li> -->
+    <!-- <div class="image" style="background-image:url(Images/slider-img-5.png);"></div> -->
+    <!-- <div class="content">
+                            <h2>Home Appliances<br> 2020</h2> -->
+    <!-- <a href="home-appliances.html" target="_blank">View Products</a> -->
+    <!-- </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div> -->
+
+
+
+
+    <!-- caoursel -->
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="5"></li>
+        </ol>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="images/slider-image-6.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="Images/slider-image-2.png" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="Images/slider-image-3.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="Images/slider-image-4.png" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="Images/slider-image-1.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="Images/slider-image-3.jpg" class="d-block w-100" alt="...">
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
+    <!----------------- USPs ----------------->
+    <div class="container my-5 py-5">
+        <div class="row my-5">
+            <div class="col-lg-3 col-md-6 col-sm-12">
+                <div class="char_item">
+                    <div class="col-3 col-md-6 col-sm-12 px-0">
+                        <div class="char_icon"><i class="fas fa-plane-departure"></i></div>
+                    </div>
+                    <div class="col-3 col-md-6 col-sm-12 px-0">
+                        <div class="char_content">
+                            <div class="char_title">Free Shipping</div>
+                            <!-- <div class="char_subtitle">Get free shipping on all the orders.</div> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12">
+                <div class="char_item">
+                    <div class="col-3 col-md-6 col-sm-12 px-0">
+                        <div class="char_icon"><i class="fas fa-medal"></i></div>
+                    </div>
+                    <div class="col-3 col-md-6 col-sm-12 px-0">
+                        <div class="char_content">
+                            <div class="char_title">Free Awards</div>
+                            <!-- <div class="char_subtitle">Get awards on purchasing of 10,000.</div> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12">
+                <div class="char_item">
+                    <div class="col-3 col-md-6 col-sm-12 px-0">
+                        <div class="char_icon"><i class="fas fa-truck"></i></div>
+                    </div>
+                    <div class="col-3 col-md-6 col-sm-12 px-0">
+                        <div class="char_content">
+                            <div class="char_title">Free Delivery</div>
+                            <!-- <div class="char_subtitle">Get free delivery on all orders over 5000.</div> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12">
+                <div class="char_item">
+                    <div class="col-3 col-md-6 col-sm-12 px-0">
+                        <div class="char_icon"><i class="fas fa-shield-alt"></i></div>
+                    </div>
+                    <div class="col-3 col-md-6 col-sm-12 px-0">
+                        <div class="char_content">
+                            <div class="char_title">Secure Pay</div>
+                            <!-- <div class="char_subtitle">Moving your card info to much more safely.</div> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <!-- <!...................Products ..................>     -->
+    <h1 style="text-align: center; font-weight: bold;">Our Products</h1> <br><br><br>
+    <h2 style="text-align: center; font-weight: bold; color:#039ee6" id="home-electronics">Home Electronics</h2>
+    <div id="products"></div>
+    <h1>Digital Electronics</h1>
+    <div id="productss"></div>
+   
+
+    <!----------------- Banner ----------------->
+    <div class="container-fluid px-1 mx-auto row justify-content-center">
+        <div class="col-xl-10 col-lg-10 ">
+            <div class="card1 pl-4 pl-md-5 pr-3">
+                <div class="row">
+                    <div class="left-side col-md-6">
+                        <h1 class="mb-0"><i>New Collection 2020</i></h1>
+                        <br>
+                        <p><em>New collection of washing machines, refrigerators, dishwahers, ovens, tv and lcds, iron,
+                                mobiles, laptops, tablets and many other items.</em></p>
+                        <h4 class="mb-0"><em>Has just arrived!</em></h4>
+                        <br>
+                        <button class="btn btn-blue mb-5"><a href="#"><em class="banner-btn">Shop
+                                    Now!</em></a>
+                            &nbsp;&nbsp;<div class="fa fa-angle-right"></div></button>
+                    </div>
+                    <div class="right-side col-md-6 row justify-content-center">
+                        <div class="d-flex"> <img class="girl-img fit-image" src="Images/ban.png">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- <div class="card2 pl-4 pl-md-5 pr-3">
+                <div class="row px-3">
+                    <div class="col-md-12">
+                        <div class="blocks row d-flex" id="ban-1">
+                            <div class="d-flex flex-column"> <img class="fit-image img-block" src="Images/fridge2.jpeg">
+                                <small class="text-center"><a href="refrigerators.html">Refrigerator</a></small> </div>
+                            <div class="d-flex flex-column"> <img class="fit-image img-block"
+                                    src="Images/w-machines.jpg"> <small class="text-center"><a href="w-mac.html">Washing
+                                        Machine</a></small>
+                            </div>
+                            <div class="d-flex flex-column"> <img class="fit-image img-block" src="Images/micro.png">
+                                <small class="text-center"><a href="microwave.html">Microwave Oven</a></small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div> -->
+        </div>
+    </div>
+
+    <!----------------- Deals of the day ----------------->
+    <!-- <div class="container my-5">
+        <h1 class="text-left my-5">DEALS OF THE DAY</h1>
+    </div>
+    <div class="container mydiv">
+        <div class="row">
+            <a href="product-laptop.html" target="_blank">
+                <div class="col-md-4" id="banner-1">
+                    <div class="bbb_deals">
+                        <div class="ribbon ribbon-top-right"><span>60% OFF</span></div>
+                        <div class="bbb_deals_title">Today's Best Offer</div>
+                        <div class="bbb_deals_slider_container">
+                            <div class=" bbb_deals_item">
+                                <div class="bbb_deals_image"><img src="Images/lap.png" alt=""></div>
+                                <div class="bbb_deals_content">
+                                    <div class="bbb_deals_info_line d-flex flex-row justify-content-start">
+                                        <div class="bbb_deals_item_category"><a href="#">Laptops</a></div>
+                                        <div class="bbb_deals_item_price_a ml-auto">18,000</div>
+                                    </div>
+                                    <div class="bbb_deals_info_line d-flex flex-row justify-content-start">
+                                        <div class="bbb_deals_item_name">Lenovo Ideapad</div>
+                                        <div class="bbb_deals_item_price ml-auto">14,900</div>
+                                    </div>
+                                    <div class="available">
+                                        <div class="available_line d-flex flex-row justify-content-start">
+                                            <div class="available_title">Available: <span>6</span></div>
+                                            <div class="sold_title ml-auto">Already sold: <span>28</span></div>
+                                        </div>
+                                        <div class="available_bar"><span style="width:17%"></span></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </a>
+            <a href="product-nokia1.html" target="_blank">
+                <div class="col-md-4" id="banner-1">
+                    <div class="bbb_deals">
+                        <div class="ribbon ribbon-top-right"><span>30% OFF</span></div>
+                        <div class="bbb_deals_title">Today's Best Offer</div>
+                        <div class="bbb_deals_slider_container">
+                            <div class=" bbb_deals_item">
+                                <div class="bbb_deals_image"><img src="Images/nokia.png" alt=""></div>
+                                <div class="bbb_deals_content">
+                                    <div class="bbb_deals_info_line d-flex flex-row justify-content-start">
+                                        <div class="bbb_deals_item_category"><a href="#">Mobile</a></div>
+                                        <div class="bbb_deals_item_price_a ml-auto">32,000</div>
+                                    </div>
+                                    <div class="bbb_deals_info_line d-flex flex-row justify-content-start">
+                                        <div class="bbb_deals_item_name">
+                                            Nokia 5.3</div>
+                                        <div class="bbb_deals_item_price ml-auto">28,999</div>
+                                    </div>
+                                    <div class="available">
+                                        <div class="available_line d-flex flex-row justify-content-start">
+                                            <div class="available_title">Available: <span>6</span></div>
+                                            <div class="sold_title ml-auto">Already sold: <span>28</span></div>
+                                        </div>
+                                        <div class="available_bar"><span style="width:17%"></span></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </a>
+            <a href="product-tablet.html" target="_blank">
+                <div class="col-md-4" id="banner-1">
+                    <div class="bbb_deals">
+                        <div class="ribbon ribbon-top-right"><span>50% OFF</span></div>
+                        <div class="bbb_deals_title">Today's Best Offer</div>
+                        <div class="bbb_deals_slider_container">
+                            <div class=" bbb_deals_item">
+                                <div class="bbb_deals_image"><img src="Images/tablet.jpg" alt=""></div>
+                                <div class="bbb_deals_content">
+                                    <div class="bbb_deals_info_line d-flex flex-row justify-content-start">
+                                        <div class="bbb_deals_item_category"><a href="#">Laptops</a></div>
+                                        <div class="bbb_deals_item_price_a ml-auto">70,500</div>
+                                    </div>
+                                    <div class="bbb_deals_info_line d-flex flex-row justify-content-start">
+                                        <div class="bbb_deals_item_name">
+                                            Apple iPad</div>
+                                        <div class="bbb_deals_item_price ml-auto">63,000</div>
+                                    </div>
+                                    <div class="available">
+                                        <div class="available_line d-flex flex-row justify-content-start">
+                                            <div class="available_title">Available: <span>6</span></div>
+                                            <div class="sold_title ml-auto">Already sold: <span>28</span></div>
+                                        </div>
+                                        <div class="available_bar"><span style="width:17%"></span></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </a>
+        </div>
+    </div> -->
+
+    <!----------------- Our Collections ----------------->
+    <!-- <div class="container my-5 pt-5">
+        <h1 class="text-left my-5">OUR COLLECTIONS</h1>
+    </div>
+    <div class="container-fluid mt-5 mb-5">
+        <div class="row mb-5">
+            <div class="col-xs-12 col-sm-12 col-md-12">
+                <div class="carousel carousel-showmanymoveone slide" id="itemslider">
+                    <div class="carousel-inner">
+                        <div class="item active">
+                            <div class="col-xs-12 col-sm-6 col-md-2">
+                                <a href="#"><img src="Images/LED.jpeg" class="img-responsive center-block"></a>
+                                <h4 class="text-center">Samsung HD LED</h4>
+                                <h5 class="text-center"><a class="text-dark" href="product-led.html"
+                                        target="_blank">View Product</a></h5>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="col-xs-12 col-sm-6 col-md-2">
+                                <a href="#"><img src="Images/refrigerator.jpg" class="img-responsive center-block"></a>
+                                <h4 class="text-center">Haier Refrigerator</h4>
+                                <h5 class="text-center"><a class="text-dark" href="product-fridge.html"
+                                        target="_blank">View Product</a></h5>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="col-xs-12 col-sm-6 col-md-2">
+                                <a href="#"><img src="Images/w-machines.jpg" class="img-responsive center-block"></a>
+                                <h4 class="text-center">Haier Washing Machine</h4>
+                                <h5 class="text-center"><a class="text-dark" href="product-machine.html"
+                                        target="_blank">View Product</a></h5>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="col-xs-12 col-sm-6 col-md-2">
+                                <a href="#"><img src="Images/iron.png" class="img-responsive center-block"></a>
+                                <h4 class="text-center">Philips Iron</h4>
+                                <h5 class="text-center"><a class="text-dark" href="irons.html" target="_blank">View
+                                        Product</a></h5>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="col-xs-12 col-sm-6 col-md-2">
+                                <a href="#"><img src="Images/microwave.png" class="img-responsive center-block"></a>
+                                <h4 class="text-center">PEL Microwave</h4>
+                                <h5 class="text-center"><a class="text-dark" href="microwave.html" target="_blank">View
+                                        Product</a></h5>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="col-xs-12 col-sm-6 col-md-2">
+                                <a href="#"><img src="Images/vaccume.jpg" class="img-responsive center-block"></a>
+                                <h4 class="text-center">WT Vaccume Cleaner</h4>
+                                <h5 class="text-center"><a class="text-dark" href="vaccume.html" target="_blank">View
+                                        Product</a></h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="slider-control" style="text-align: center;">
+                        <a class="left carousel-control" href="#itemslider" data-slide="prev"><img
+                                src="https://cdn0.iconfinder.com/data/icons/website-kit-2/512/icon_402-512.png"
+                                alt="Left" class="img-responsive"></a>
+                        <span style="display: none;">New arrivals of store 2020</span>
+                        <a class="right carousel-control" href="#itemslider" data-slide="next"><img
+                                src="http://pixsector.com/cache/81183b13/avcc910c4ee5888b858fe.png" alt="Right"
+                                class="img-responsive"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> -->
+
+    <!----------------- Featured Products ----------------->
+    <!-- <div class="container my-5 pt-5">
+        <h1 class="text-left" style="width: 39%;">FEATURED PRODUCTS</h1>
+    </div>
+    <div class="py-5 text-dark" id="venue">
+        <div class="container-fluid text-dark">
+            <div class="row animate-in-down" style="background-image: linear-gradient(#007DB9, #86BBBD);">
+                <div class="p-4 col-md-6 align-self-center text-color px-5">
+                    <p class="m-0 ">Catch Us On Biggest Sales Of The Year</p>
+                    <h2>Discover the products on disscount</h2>
+                    <p class="my-4">
+                        New collection of washing machines, refrigerators, dishwahers, ovens, tv and lcds, iron,
+                        mobiles, laptops, tablets and many other items. Buy now your favourite items on supper amazing
+                        deals in our products with disscount.</p>
+                    <button class="btn btn-blue"><a href="featured-products.html" target="_blank"><em>View
+                                Products!</em></a>
+                        <div class="fa fa-angle-right"></div>
+                    </button>
+                </div>
+                <div class="p-0 col-md-6">
+                    <div class="carousel slide" data-ride="carousel" id="carousel1">
+                        <div class="carousel-inner" role="listbox">
+                            <div class="carousel-item"> <img class="d-block img-fluid w-100" src="Images/home-bann.png"
+                                    alt="first slide">
+                                <div class="carousel-caption">
+                                    <h3>Home Electronics</h3>
+                                </div>
+                            </div>
+                            <div class="carousel-item active"> <img class="d-block img-fluid w-100"
+                                    src="Images/mob-ban.png" data-holder-rendered="true">
+                                <div class="carousel-caption">
+                                    <h3>Digital Electronics</h3>
+                                </div>
+                            </div>
+                        </div> <a class="carousel-control-prev" href="#carousel1" role="button" data-slide="prev"> <span
+                                class="carousel-control-prev-icon" aria-hidden="true"></span> <span
+                                class="sr-only">Previous</span> </a> <a class="carousel-control-next" href="#carousel1"
+                            role="button" data-slide="next"> <span class="carousel-control-next-icon"
+                                aria-hidden="true"></span> <span class="sr-only">Next</span> </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> -->
+
+    <!----------------- Recently Viewed ----------------->
+    <!-- <div class="container my-5 pt-5">
+        <h1 class="text-left my-5" style="width: 39%;">RECENTLY VIEWED</h1>
+    </div>
+    <section id="list-product">
+        <div class="container">
+            <div class="row mb-5">
+                <div class="col-md-3">
+                    <div class="product-block">
+                        <div class="left-block">
+                            <a class="product_img_link" href="product-nokia.html" target="_blank" title=""><img
+                                    class="img-responsive" src="Images/lenovo-mobile.jpg" alt="" /></a>
+                            <a href="product-nokia.html" target="_blank" class="quick-view btn-tooltip"><i
+                                    class="fa fa-eye"></i></a>
+                            <span class="label-new label">Mobile</span>
+                        </div>
+                        <div class="right-block">
+                            <div class="product-meta">
+                                <h5 class="name">
+                                    <a href="#" class="product-name">Nokia Mobiles</a>
+                                </h5>
+                                <div class="comments_note product-rating clearfix">
+                                    <div class="star_content">
+                                        <div><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                                class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                                class="fas fa-star"></i></div>
+                                    </div>
+                                </div>
+                                <div class="content_price">
+                                    <span class="price product-price">PKR. 10,999
+                                    </span>
+                                    <span class="old-price product-price">12,000</span>
+                                    <span class="price-percent-reduction">5%</span>
+                                </div>
+                                <div class="functional-buttons clearfix">
+                                    <a href="#" class="button ajax_add_to_cart_button"><span>Add to cart</span></a>
+                                    <a href="#" class="btn-tooltip addToWishlist"><i class="fa fa-heart"
+                                            style="color: white;"></i></a>
+                                    <a href="#" class="add_to_compare compare btn-tooltip"><i
+                                            class="fa fa-refresh"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="product-block">
+                        <div class="left-block">
+                            <a class="product_img_link" href="product-irons1.html" target="_blank" title=""><img
+                                    class="img-responsive" src="Images/s-iron.png" alt="" /></a>
+                            <a href="product-irons1.html" target="_blank" class="quick-view btn-tooltip"><i
+                                    class="fa fa-eye"></i></a>
+                            <span class="label-new label">Iron</span>
+                        </div>
+                        <div class="right-block">
+                            <div class="product-meta">
+                                <h5 class="name">
+                                    <a href="#" class="product-name">Sencor Iron</a>
+                                </h5>
+                                <div class="comments_note product-rating clearfix">
+                                    <div class="star_content">
+                                        <div><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                                class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                                class="fas fa-star"></i></div>
+                                    </div>
+                                </div>
+                                <div class="content_price">
+                                    <span class="price product-price">PKR. 3,299
+                                    </span>
+                                    <span class="old-price product-price">4,000</span>
+                                    <span class="price-percent-reduction">5%</span>
+                                </div>
+                                <div class="functional-buttons clearfix">
+                                    <a href="#" class="button ajax_add_to_cart_button"><span>Add to cart</span></a>
+                                    <a href="#" class="btn-tooltip addToWishlist"><i class="fa fa-heart"
+                                            style="color: white;"></i></a>
+                                    <a href="#" class="add_to_compare compare btn-tooltip"><i
+                                            class="fa fa-refresh"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="product-block">
+                        <div class="left-block">
+                            <a class="product_img_link" href="product-tablet.html" target="_blank" title=""><img
+                                    class="img-responsive" src="Images/tablet.jpg" alt="" /></a>
+                            <a href="product-tablet.html" target="_blank" class="quick-view btn-tooltip"><i
+                                    class="fa fa-eye"></i></a>
+                            <span class="label-new label">Tablet</span>
+                        </div>
+                        <div class="right-block">
+                            <div class="product-meta">
+                                <h5 class="name">
+                                    <a href="#" class="product-name">
+                                        Apple iPad</a>
+                                </h5>
+                                <div class="comments_note product-rating clearfix">
+                                    <div class="star_content">
+                                        <div><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                                class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                                class="fas fa-star"></i></div>
+                                    </div>
+                                </div>
+                                <div class="content_price">
+                                    <span class="price product-price">PKR. 63,000
+                                    </span>
+                                    <span class="old-price product-price">65,000</span>
+                                    <span class="price-percent-reduction">5%</span>
+                                </div>
+                                <div class="functional-buttons clearfix">
+                                    <a href="#" class="button ajax_add_to_cart_button"><span>Add to cart</span></a>
+                                    <a href="#" class="btn-tooltip addToWishlist"><i class="fa fa-heart"
+                                            style="color: white;"></i></a>
+                                    <a href="#" class="add_to_compare compare btn-tooltip"><i
+                                            class="fa fa-refresh"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="product-block">
+                        <div class="left-block">
+                            <a class="product_img_link" href="product-led.html" target="_blank" title=""><img
+                                    class="img-responsive" src="Images/LED1.jpeg" alt="" /></a>
+                            <a href="product-led.html" target="_blank" class="quick-view btn-tooltip"><i
+                                    class="fa fa-eye"></i></a>
+                            <span class="label-new label">LED</span>
+                        </div>
+                        <div class="right-block">
+                            <div class="product-meta">
+                                <h5 class="name">
+                                    <a href="#" class="product-name">Samsung LED</a>
+                                </h5>
+                                <div class="comments_note product-rating clearfix">
+                                    <div class="star_content">
+                                        <div><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                                class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                                class="fas fa-star"></i></div>
+                                    </div>
+                                </div>
+                                <div class="content_price">
+                                    <span class="price product-price">PKR. 35,800
+                                    </span>
+                                    <span class="old-price product-price">38,000</span>
+                                    <span class="price-percent-reduction">5%</span>
+                                </div>
+                                <div class="functional-buttons clearfix">
+                                    <a href="#" class="button ajax_add_to_cart_button"><span>Add to cart</span></a>
+                                    <a href="#" class="btn-tooltip addToWishlist"><i class="fa fa-heart"
+                                            style="color: white;"></i></a>
+                                    <a href="#" class="add_to_compare compare btn-tooltip"><i
+                                            class="fa fa-refresh"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section> -->
+
+    <!----------------- Partners Slider ----------------->
+    <section class="my-5">
+        <div class="container my-5 pt-5">
+            <h1 class="text-center my-5">OUR PARTNERS</h1>
+        </div>
+        <div id="client-content" class="container-fluid my-5">
+            <div id="clients" class=" row">
+                <div class="clients-wrap my-5">
+                    <ul id="clients-list" class="clearfix">
+                        <li><img src="Images/partner-1.png" alt="Samsung"></li>
+                        <li><img src="Images/partner-2.png" alt="Nokia">
+                        </li>
+                        <li><img src="Images/partner-3.png" alt="Dawlance"></li>
+                        <li><img src="Images/partner-4.png" alt="Haier"></li>
+                        <li><img src="Images/partner-5.jpg" alt="Sony"></li>
+                        <li><img src="Images/partner-6.png" alt="Lenovo"></li>
+                        <li><img src="Images/partner-7.png" alt="HP"></li>
+                        <li><img src="Images/partner-8.png" alt="PEL"></li>
+                        <li><img src="Images/partner-9.png" alt="Panasonic">
+                        </li>
+                        <li><img src="Images/partner-10.png" alt="Apple"></li>
+                        <li><img src="Images/partner11.png" alt="DELL"></li>
+                        <li><img src="Images/partner12.png" alt="Oppo"></li>
+                        <li><img src="Images/partner-13.png" alt="Huawei"></li>
+                        <li><img src="Images/partner-14.png" alt="Westpoint"></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!----------------- Footer ----------------->
+    <footer class="section-footer border-top mt-5 pt-5 px-5" style="background-color:#030f27;">
+        <div class="container-fluid pt-5">
+            <section class="footer-top padding-y">
+                <div class="row">
+                    <aside class="col-lg-4 col-md-4" id="footer-log">
+                        <article class="mr-3"> <img src="Images/logo.png" class="logo-footer" style="width: 300px;">
+                        </article>
+                    </aside>
+                    <aside class="col-lg-2 col-sm-6 col-md-3">
+                        <h6 class="title">ABOUT</h6>
+                        <ul class="list-unstyled">
+                            <li class="py-2"> <a href="#" data-abc="true">About us</a></li>
+                            <li class="py-2"> <a href="#" data-abc="true">Contact Us</a></li>
+                            <li class="py-2"> <a href="#" data-abc="true">Payment</a></li>
+                            <li class="py-2"> <a href="#" data-abc="true">Shipping</a></li>
+                            <li class="py-2"> <a href="#" data-abc="true">FAQs</a></li>
+                            <li class="py-2"> <a href="#" data-abc="true">Careers</a></li>
+                            <li class="py-2"> <a href="#" data-abc="true">Our Services</a></li>
+                        </ul>
+                    </aside>
+                    <aside class="col-lg-2 col-sm-6 col-md-3">
+                        <h6 class="title">POLICY</h6>
+                        <ul class="list-unstyled">
+                            <li class="py-2"> <a href="#" data-abc="true">Return Policy</a></li>
+                            <li class="py-2"> <a href="#" data-abc="true">Privacy</a></li>
+                            <li class="py-2"> <a href="#" data-abc="true">Security</a></li>
+                            <li class="py-2"> <a href="#" data-abc="true">SiteMap</a></li>
+                            <li class="py-2"> <a href="#" data-abc="true">Terms & Condition</a></li>
+                            <li class="py-2"> <a href="#" data-abc="true">Cancellation and Return</a></li>
+                        </ul>
+                    </aside>
+                    <aside class="col-lg-2 col-sm-6 col-md-3">
+                        <h6 class="title">CONTACT</h6>
+                        <ul class="list-unstyled">
+                            <li class="py-2"> <a href="#" data-abc="true">User Login</a></li>
+                            <li class="py-2"> <a href="#" data-abc="true">User Register</a></li>
+                            <li class="py-2"> <a href="#" data-abc="true">My Orders</a></li>
+                            <li class="py-2"> <a href="#" data-abc="true">+92 0000 000 000</a></li>
+                            <li class="py-2"> <a href="#" data-abc="true">contact@electronistan.com</a></li>
+                        </ul>
+                    </aside>
+                    <aside class="col-lg-2 col-sm-6 col-md-3">
+                        <h6 class="title">SOCIAL</h6>
+                        <ul class="list-unstyled">
+                            <li class="py-2"> <a class="btn btn-icon" title="Facebook" target="_blank" href="#"
+                                    data-abc="true"><i class="fab fa-facebook-f"></i></a>Facebook</li>
+                            <li class="py-2"><a class="btn btn-icon" title="Instagram" target="_blank" href="#"
+                                    data-abc="true"><i class="fab fa-instagram"></i></a>Instagram</li>
+                            <li class="py-2"><a class="btn btn-icon" title="Youtube" target="_blank" href="#"
+                                    data-abc="true"><i class="fab fa-youtube"></i></a>Youtube</li>
+                            <li class="py-2"><a class="btn btn-icon" title="Twitter" target="_blank" href="#"
+                                    data-abc="true"><i class="fab fa-twitter"></i></a>Twitter</li>
+                    </aside>
+            </section>
+            <section class="footer-copyright border-top">
+                <p class="text-center text-white">© 2020 Electronistan.com</p>
+            </section>
+        </div>
+    </footer>
+    </output>
+
+    <!----------------- Script Tags ----------------->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script src="https://kit.fontawesome.com/da1b0dca31.js" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
+        integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+        crossorigin="anonymous"></script>
+    <script type='text/javascript' src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+    <script type='text/javascript' src='https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js'></script>
+    <script type='text/javascript' src='https://maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js'></script>
+    <script type='text/javascript' src="script.js"></script>
+    <script src="signup.js"></script>
+</body>
+<script src="login.js"></script>
+<script src="homeElectronics.json"></script>
+
+</html>

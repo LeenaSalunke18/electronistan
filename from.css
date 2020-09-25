@@ -1,0 +1,100 @@
+.container{
+    display: flex;
+    justify-content: space-around;
+    flex-flow: row wrap;
+}
+.mainimg{
+    width: 400px;
+}
+input{
+    width: 200px;
+    height: 30px;
+    background-color: rgb(255, 255, 255);
+    margin-top: 20px;
+}
+ h1{
+    font-family: sans-serif;
+    font-size: 30px;
+    margin-left: 30px;
+    font-weight: bold;
+    color: #1a73e8;
+}
+.form{
+    margin-left: 360px;
+}
+button{
+    width: 70px;
+    height: 40px;
+    margin-left: 100px;
+    margin-top: 30px;
+    background-color: #1a73e8;
+    color: white;
+    border: none;
+    border-radius: 40px;
+}
+#span1, #span2{
+    color: red;
+
+}
+#span1, #span2{
+    display: none;
+}
+
+.page2img{
+    width: 150px;
+    margin-left: 400px;
+
+}
+.page2h1{
+    color: purple;
+    font-family: sans-serif;
+    margin-left: 150px;
+}
+.page2link{
+    color: green;
+    margin-left: 400px;
+    font-size: 40px;
+}
+
+h4{
+    font-family: sans-serif;
+    color: grey;
+    font-size: 15px;
+}
+
+
+@media only screen and (max-width:768px) {
+    .maincontiner{
+      margin-left: -100px;
+    }
+
+
+@media only screen and (max-width: 450px) {
+    .maincontiner{
+      margin-left: -310px;
+    }
+    .page2img{
+        margin-left: 50px;
+    }
+    .page2link{
+        margin-left: 50px;
+    }
+    .page2h1{
+        margin-left: 30px;
+    }
+  }
+
+  @media only screen and (max-width: 280px) {
+    .maincontiner{
+      margin-left: -310px;
+    }
+    .page2img{
+        margin-left: 50px;
+    }
+    .page2link{
+        margin-left: 50px;
+    }
+    .page2h1{
+        margin-left: 30px;
+    }
+  }

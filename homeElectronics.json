@@ -1,0 +1,103 @@
+
+   [
+    {
+      "id": 201,
+      "name": "Samsung LCD",
+      "price": 35000,
+      "categoryId": 1,
+      "rate": 2.44,
+      "content": "Samsung Branded 32 Inch LCD with 1 Year Warranty",
+      "review": 78,
+      "imageUrl": "images/lcd1.png",
+      "action": "Buy Now"
+    },
+    {
+      "id": 202,
+      "name": "Sony LCD",
+      "price": 50000,
+      "categoryId": 2,
+      "rate": 2.18,
+      "content": "Sony Very Branded 50 Inch LCD with 5 Year Warrenty",
+      "review": 67,
+      "imageUrl": "images/lcd2.png",
+      "action": "Buy Now"
+    },
+    {
+      "id": 203,
+      "name": "Nokia LCD",
+      "price": 40000,
+      "categoryId": 3,
+      "rate": 0.91,
+      "content": "Hair Imported 32 Inch LCD with 2 Year Warranty",
+      "review": 116,
+      "imageUrl": "images/lcd3.png",
+      "action": "Buy Now"
+      
+    },
+    {
+      "id": 204,
+      "name": " Pel Refregrator",
+      "price": 60000,
+      "categoryId": 4,
+      "rate": 3.11,
+      "content": "Pel Refregrator Very Branded Quality with 10 Year Warrenty",
+      "review": 78,
+      "imageUrl": "images/ref1.png",
+      "action":"Buy Now"
+    },
+    {
+      "id": 209,
+      "name": "Gar Refregrator",
+      "price": 70000,
+      "categoryId": 5,
+      "rate": 0.29,
+      "content": "Gar Refregrator Very Branded Quality with 10 Year Warrenty",
+      "review": 44,
+      "imageUrl": "images/ref2.png",
+      "action":"Buy Now"
+    },
+    {
+      "id": 220,
+      "name": "Sony Refregrator",
+      "price": 80000,
+      "categoryId": 6,
+      "rate": 0.28,
+      "content": " Sony Refregrator Very Branded Quality with 10 Year Warrenty",
+      "review": 34,
+      "imageUrl": "images/ref3.png",
+      "action":"Buy Now"
+    },
+    {
+      "id": 223,
+      "name": "Haier Wasing Machine",
+      "price": 16000,
+      "categoryId": 7,
+      "rate": 4.74,
+      "content": "Haier imported Washing Machine with 5 Year Warrenty",
+      "review": 188,
+      "imageUrl": "images/wash3.png",
+      "action":"Buy Now"
+    },
+    {
+      "id": 224,
+      "name": "Pel Washing Machine",
+      "price": 20000,
+      "categoryId": 8,
+      "rate": 4.38,
+      "content": "Haier imported Washing Machine with 5 Year Warrenty",
+      "review": 63,
+      "imageUrl": "images/wash1.png",
+      "action":"Buy Now"
+    },
+    {
+      "id": "home-electro",
+      "name": "King Washing Machine",
+      "price": 22000,
+      "categoryId": 9,
+      "rate": 0.21,
+      "content": "Haier imported Washing Machine with 5 Year Warrenty",
+      "review": 125,
+      "imageUrl": "images/wash2.png",
+      "action":"Buy Now"
+    }
+  ]
